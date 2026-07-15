@@ -10,7 +10,7 @@ import Projects from './Projects.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/jnwang.github.io">
+    <BrowserRouter basename="/">
       <Routes>
         <Route path ="/" element = {<Home />} />
         <Route path ="/recipes" element = {<Recipes />} />
