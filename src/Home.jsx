@@ -2,7 +2,7 @@ import "./Home.css"
 import {Header, Footer} from './components/Margins.jsx'
 import { useInView } from 'react-intersection-observer'
 import {useEffect, useState} from 'react'
-import {supabase} from './supabaseClient'
+import {supabase} from './supabaseClient.js'
 import {Link} from 'react-router-dom'
 
 const About = () => {

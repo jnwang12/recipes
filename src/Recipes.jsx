@@ -2,7 +2,7 @@
 import {Header, Footer} from './components/Margins.jsx'
 import './Recipes.css'
 import { useEffect, useState } from 'react'
-import { supabase } from './supabaseClient'
+import { supabase } from './supabaseClient.js'
 
 const Dish = ({name, description, image, id}) => {
   const direction = (id%2 ==0) ?"left" :"right"
